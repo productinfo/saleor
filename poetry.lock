@@ -781,14 +781,14 @@ prices = ">=1.0.0"
 
 [[package]]
 name = "django-prices-openexchangerates"
-version = "1.1.0"
+version = "1.2.0"
 description = "openexchangerates.org support for django-prices"
 category = "main"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-Django = ">=1.11"
+Django = ">=3.0"
 django-prices = ">=1.0.0"
 prices = ">=1.0.0"
 
@@ -2956,8 +2956,8 @@ test = ["pytest"]
 
 [metadata]
 lock-version = "1.1"
-  python-versions = "~3.9"
-content-hash = "1cffe6e48ac55536dcfde99629383906f66c4a2b98e9570f3200b10f14130fd1"
+python-versions = "~3.9"
+content-hash = "04c7379635edc39f538f97e9397784efc191297ef375a3b546206972e49fb12a"
 
 [metadata.files]
 adyen = [
@@ -3455,8 +3455,8 @@ django-prices = [
     {file = "django_prices-2.2.0-py3-none-any.whl", hash = "sha256:4ef054a660663c216a869126f1d209752381d5e311e5808438d29c944c2009d3"},
 ]
 django-prices-openexchangerates = [
-    {file = "django-prices-openexchangerates-1.1.0.tar.gz", hash = "sha256:7d8d31c988dc42e9a90621eded3cef71de255bb6071aef942390bbd88edd4640"},
-    {file = "django_prices_openexchangerates-1.1.0-py3-none-any.whl", hash = "sha256:e8a8e85020ab62071bec29bf48eb7e688822141291e9d855b045efe1ab27ea74"},
+    {file = "django-prices-openexchangerates-1.2.0.tar.gz", hash = "sha256:183cc2b6c15da7555d36b03634fef6c73c80e692a9f63ff0bfc1443f57f55740"},
+    {file = "django_prices_openexchangerates-1.2.0-py3-none-any.whl", hash = "sha256:2daff7ae82632ca4fd23e1b5328d9520b9d6a9f75e652f93ea8c8935d94f2baf"},
 ]
 django-prices-vatlayer = [
     {file = "django-prices-vatlayer-1.1.0.tar.gz", hash = "sha256:54cb240dfd2b7c5fd22498aaf6e9141e602eccb2b0672911c64dc5add3fa666e"},
