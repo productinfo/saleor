@@ -767,7 +767,7 @@ phonenumberslite = ["phonenumberslite (>=7.0.2)"]
 
 [[package]]
 name = "django-prices"
-version = "2.2.0"
+version = "2.3.0"
 description = "Django fields for the prices module"
 category = "main"
 optional = false
@@ -775,7 +775,7 @@ python-versions = "*"
 
 [package.dependencies]
 Babel = ">=2.2"
-Django = ">=2.2,<4"
+Django = ">=3.0,<5"
 enmerkar = ">=0.7.1"
 prices = ">=1.0.0"
 
@@ -2956,8 +2956,8 @@ test = ["pytest"]
 
 [metadata]
 lock-version = "1.1"
-  python-versions = "~3.9"
-content-hash = "1cffe6e48ac55536dcfde99629383906f66c4a2b98e9570f3200b10f14130fd1"
+python-versions = "~3.9"
+content-hash = "035e78f5c3c4288b7b3df409f028eec16ca41df49f175b8b43ddbe6c467aced9"
 
 [metadata.files]
 adyen = [
@@ -3451,8 +3451,8 @@ django-phonenumber-field = [
     {file = "django_phonenumber_field-6.4.0-py3-none-any.whl", hash = "sha256:a31b4f05ac0ff898661516c84940f83adb5cdcf0ae4b9b1d31bb8ad3ff345b58"},
 ]
 django-prices = [
-    {file = "django-prices-2.2.0.tar.gz", hash = "sha256:cdbea06db683c589d4cf3ec48d4b2385000ddc4df6e641f48cea563e19f645a3"},
-    {file = "django_prices-2.2.0-py3-none-any.whl", hash = "sha256:4ef054a660663c216a869126f1d209752381d5e311e5808438d29c944c2009d3"},
+    {file = "django-prices-2.3.0.tar.gz", hash = "sha256:dc2ba039fcdeeffbcb8ba41e46821d509af4d50cca36f527990ed319ff83fed9"},
+    {file = "django_prices-2.3.0-py3-none-any.whl", hash = "sha256:b72ec33ac9475b8a2a8fff1414427b17fd6df58d8dfde4d257f7d58fd7251b80"},
 ]
 django-prices-openexchangerates = [
     {file = "django-prices-openexchangerates-1.1.0.tar.gz", hash = "sha256:7d8d31c988dc42e9a90621eded3cef71de255bb6071aef942390bbd88edd4640"},
