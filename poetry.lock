@@ -963,19 +963,19 @@ python-dateutil = ">=2.4"
 
 [[package]]
 name = "fakeredis"
-version = "1.10.1"
+version = "2.4.0"
 description = "Fake implementation of redis API for testing purposes."
 category = "dev"
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = ">=3.8.1,<4.0"
 
 [package.dependencies]
 redis = "<4.5"
 sortedcontainers = ">=2.4.0,<3.0.0"
 
 [package.extras]
-aioredis = ["aioredis (>=2.0.1,<3.0.0)"]
-lua = ["lupa (>=1.13,<2.0)"]
+json = ["jsonpath-ng (>=1.5,<2.0)"]
+lua = ["lupa (>=1.14,<2.0)"]
 
 [[package]]
 name = "filelock"
@@ -2952,7 +2952,7 @@ test = ["pytest"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "5d165da11ceda2ddf2955a9768d8ae3db73c50fcbbfc724e49ad4a25dd49bf60"
+content-hash = "fb108a8621c88c2b60678bd6220e10db16e824831212108b218abe79908e313e"
 
 [metadata.files]
 adyen = [
@@ -3532,8 +3532,8 @@ faker = [
     {file = "Faker-15.3.1.tar.gz", hash = "sha256:b9dd2fd9a9ac68a4e0c5040cd9e9bfaa099fa8dd15bae5f01f224a45431818d5"},
 ]
 fakeredis = [
-    {file = "fakeredis-1.10.1-py3-none-any.whl", hash = "sha256:054ec109ec2cb4b1f0c6ed8d53603b07504c971bf8865dc6459eb5598e02ef1b"},
-    {file = "fakeredis-1.10.1.tar.gz", hash = "sha256:2d0d9163ce9ea7e3eae44c65d2e4ed168a8a3827a1d3ba430ca6f31ab0e762ff"},
+    {file = "fakeredis-2.4.0-py3-none-any.whl", hash = "sha256:628d333a85fb184204ba234278970d8621fbd6bf90c81b2439a95b89e12f58d3"},
+    {file = "fakeredis-2.4.0.tar.gz", hash = "sha256:8fe73cde197c79591cf22dfefac74056fd1841934ad32cfdb98c7eb569c39da3"},
 ]
 filelock = [
     {file = "filelock-3.8.0-py3-none-any.whl", hash = "sha256:617eb4e5eedc82fc5f47b6d61e4d11cb837c56cb4544e39081099fa17ad109d4"},
@@ -4337,6 +4337,7 @@ pytest-xdist = [
 ]
 python-crontab = [
     {file = "python-crontab-2.6.0.tar.gz", hash = "sha256:1e35ed7a3cdc3100545b43e196d34754e6551e7f95e4caebbe0e1c0ca41c2f1b"},
+    {file = "python_crontab-2.6.0-py3-none-any.whl", hash = "sha256:f308a64b8b1d072da4a235e9320398a242e92d080c1d8143bd0c600b24e160f8"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
